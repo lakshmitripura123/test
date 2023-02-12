@@ -12,3 +12,4 @@ jobs:
         with:
           release-type: terraform-module # Multiple release types are supported
           default-branch: main
+          github-token: ${{ secrets.test-token }}
